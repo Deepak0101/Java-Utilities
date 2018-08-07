@@ -1,0 +1,6 @@
+written java code to process multiples files. This java code does following thing:
+
+1-	Unzip log files in new directory structure which is replication of source directory.
+2-	Process unzipped logs by triggering ETL.exe process .
+3-	Creating a new directory for data.xml and putting data xml inside it with the folder name as logname
+4-	Deleting the unzipped file to save space.
